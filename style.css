@@ -1,0 +1,302 @@
+
+body{
+    font-family: 'Arial','sans-serif';
+    background-color: white;
+    }
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.section__s1{
+    display: flex;
+}
+.section__s1a{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.section__s2{
+    display: flex;
+    margin-top: 5px;
+    gap:40px;
+    font-size: 18px;
+}
+
+.section__s2a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 1px;
+    gap:10px;
+    border-radius:30px ;
+border-width: 1px;
+padding:0px}
+
+.section__s2a1{
+    font-size: 20px;
+    padding:0;
+}
+.section__s2a2{
+    padding:0;
+}
+.section__s2c{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.section__s2d{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap:10px;
+}
+
+.section__s2e{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.where {
+    text-align: center;
+    font-size: 60px;
+}
+
+.categories{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+}
+
+.cat__1{display:flex;
+justify-content: center;
+align-items: center;}
+.cat__2{display:flex;
+    justify-content: center;
+    align-items: center;}
+.cat__3{display:flex;
+    justify-content: center;
+    align-items: center;}
+.cat__4{display:flex;
+    justify-content: center;
+    align-items: center;}
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        gap:10px;
+        border: solid black 1px;
+        border-radius: 30px;
+        margin-left: 400px;
+        margin-right: 400px;
+            }
+
+    .where__1 h1{
+        margin-left: 400px;
+        margin-right: 400px
+
+    }
+
+    .navbar__1 input{
+        border:none;
+    }
+
+
+
+    
+    .tour__desc{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border : solid green 1px;
+        background-color: #47df47;
+        border-radius:20px;
+        gap: 60px;
+        margin-bottom:60px;
+    }
+    .tour__image{
+        margin: 30px;
+        width:50%;
+    }
+
+    .desc__1 h1{
+font-size: 50px;
+    }
+
+    .desc__1 button{
+        background-color: black;
+        color: white;
+        border : solid black 1px;
+    }
+
+    .interest h2{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .interest{
+        padding:10px;
+        margin-bottom:60px;
+    }
+
+    .interest__container{
+        display:flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        padding-bottom: 0px;
+        
+    }
+
+    .adventures{
+        padding:10px;
+        margin-top:10px;
+        margin-bottom:60px;
+        
+    }
+
+    .adventures__container{
+        display:flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .course-card{
+        flex-grow:1;
+        flex-basis:20%;
+        margin:5px;
+    }
+    
+    .course-card img{
+        width:100%;
+        height:50%;
+    }
+
+    .dinning{
+        padding:10px;
+        margin-bottom:60px
+    }
+
+    .dinning__container{
+        display:flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .iconic{
+        padding:10px;
+        margin-bottom:60px
+    }
+
+    .iconic__container{
+        display:flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .best{
+        display: flex;
+        justify-content:space-evenly ;
+        align-items: center;
+        margin-top: 50px;
+        border : solid black 1px;
+        height:500px;
+        width:80%;
+        background-color: black;
+        color:white;
+        border-radius:20px;
+        gap: 60px;
+        position: relative;
+        padding:2%;
+        margin-bottom:60px;
+        margin-left:50px;
+        margin-right:50px;}
+        
+
+    }
+    .best__image { 
+        margin-right:0px;
+        width:20%;
+    }
+
+    .best__desc{
+        padding-left:10px;
+    }
+    .best__desc h1{
+font-size: 50px;
+margin-left:0px;
+    }
+
+    .best__desc button{
+        background-color: goldenrod;
+        color: black;
+        border : solid black 1px;
+    }
+
+    .details{
+        padding:10px;
+        
+    }
+    
+    .details__container{
+        display:flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        border:transparent 1px;
+        background-color: rgb(214, 214, 214);
+    }
+
+    @media screen and (max-width: 600px)
+{
+    .section,
+    .categories {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+}
+.section__s2{display:none;}
+.navbar,.where__1 h1,.tour__desc {
+    margin-left: 20px;
+    margin-right: 20px;}
+
+    .where {
+        font-size: 36px;
+    }
+    .section__s2a,
+    .section__s2d {
+        flex-direction: row; 
+        padding: 10px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .tour__desc {
+        display: none;
+    }
+
+    
+    .best {
+        flex-direction: column;   
+        height: auto;             
+        width: 90%;               
+        margin: 30px auto;        
+        gap: 20px;                
+        padding: 15px;            
+      }
+      .best__image {
+        position: static;         
+        width: 60%;               
+        margin: 0 auto;           
+      }
+    
+}
+
